@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Classroom Auction</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 Bid & Bluff</h1>
+    <div id="item-display">
+      <img id="item-image" src="" alt="Auction Item">
+      <h2 id="item-title">Loading item...</h2>
+      <p id="item-desc"></p>
+      <p id="timer">Time left: 2:00</p>
+      
+      <div class="bid-section">
+        <input type="number" id="bid-amount" placeholder="Your bid (€)">
+        <button onclick="placeBid()">Place Bid</button>
+      </div>
+      
+      <div id="bid-history">
+        <h3>Live Bids:</h3>
+        <ul id="bids-list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
