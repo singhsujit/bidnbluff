@@ -1,0 +1,6 @@
+/
+├── index.html          # Main page
+├── professor.html      # Professor dashboard
+├── styles.css          # Shared styles
+├── script.js           # Shared logic
+└── items.json          # Sample auction items
