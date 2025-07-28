@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Professor Controls</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Auction Control Panel</h1>
+    
+    <div class="controls">
+      <button onclick="startAuction()">▶️ Start Auction</button>
+      <button onclick="revealCost()">💸 Reveal True Cost</button>
+      <button onclick="injectFakeBid()">🤖 Add Fake Bid</button>
+    </div>
+    
+    <div id="current-item">
+      <h2>Current Item: <span id="current-item-name">None</span></h2>
+      <p>True Cost: €<span id="true-cost">?</span></p>
+    </div>
+    
+    <div id="bid-stats">
+      <h3>Bid Analytics</h3>
+      <p>Highest: €<span id="highest-bid">0</span></p>
+      <p>Average: €<span id="avg-bid">0</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
